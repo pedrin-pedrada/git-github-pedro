@@ -2,6 +2,7 @@
 
 ## git
 
+<<<<<<< HEAD
 git init .						-> Inicia projeto git\r
 git add <nome_arquivo>			-> Adiciona arquivos na stage\r
 git commit -m "Nome commit"		-> Commit a stage atual\r
@@ -24,4 +25,5 @@ git merge <nome_branch>			-> Faz o merge com a branch informada na branch atual\
 
 git clone <link_repositorio_github>		-> Traz o repositório da nuvem para o git local. \r
 git push origin <nome_branch>			-> Enviar alterações ao repositório\r
-git pull								-> Traz a branch atual do repositório\r
+git pull								-> Traz a branch main do repositório\r
+git pull origin <nome_branch> 			-> Traz a branch do reporitorio para a branch atual\r
