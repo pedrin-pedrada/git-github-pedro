@@ -43,3 +43,13 @@ git pull								-> Traz a branch main do repositório
 
 git pull origin <nome_branch> 			-> Traz a branch do reporitorio para a branch atual
 
+
+## No Linux
+```
+sudo apt install gh
+
+gh auth login
+```
+
+
+
